@@ -52,12 +52,12 @@ public class MainActivity extends BrightcovePlayer {
     /**
      * The video cloud account identifier.
      */
-    private static final String ACCOUNT_ID = "5420904993001";
+    private static final String ACCOUNT_ID = "6254033985001";
 
     /**
      * The policy key for the video cloud account.
      */
-    private static final String POLICY_KEY = "BCpkADawqM1RJu5c_I13hBUAi4c8QNWO5QN2yrd_OgDjTCVsbILeGDxbYy6xhZESTFi68MiSUHzMbQbuLV3q-gvZkJFpym1qYbEwogOqKCXK622KNLPF92tX8AY9a1cVVYCgxSPN12pPAuIM";
+    private static final String POLICY_KEY = "BCpkADawqM0_ftezwSuMzdLeGaBXxrhL6QAPjdygSjzf8j49y8tANSZQyu5qzqq2_ZDDfowxUz1yDsElLuJTewT7rBlKazedvak2IYrTQkQqpADTBELX3cbjtQBrS079ImH8x974IFvR4jzw";
 
     /**
      * Specifies how long the content can be consumed after the start of playback as total number
@@ -102,7 +102,7 @@ public class MainActivity extends BrightcovePlayer {
     private String pasToken = "YOUR_PAS_TOKEN";
     private static final int PLAYDURATION_EXTENSION = 10000;
 
-    PlaylistModel playlist = PlaylistModel.byReferenceId("demo_odrm_widevine_dash", "Offline Playback List");
+    PlaylistModel playlist = PlaylistModel.byReferenceId("bc-test-drm", "Offline Playback List");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
